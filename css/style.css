@@ -6,12 +6,24 @@ body,p{
     font-family: Poppins!important;
 }
 hr{
-    border: 2px solid #0674fd;
-
-    width: 3%;
+    border: 2px solid #0674fd !important;
+    width: 8%;
 }
 .ownclass{
     height: 550px;
+}
+.bansecbtn{
+    background-image: -webkit-gradient(linear, left top, right top, from(#0674fd), to(#00d0f9));
+    color: white !important;
+    font-weight: 600;
+}
+.bannerheading button{
+    color: #0674fd;
+    border: none;
+    font-weight: 500;
+    border-radius: 40px;
+    padding: 17px 45px;
+    background-color: white;
 }
 .ownclass p{
     font-size: 17px;
@@ -23,10 +35,6 @@ hr{
     font-weight: bold;
     margin-bottom: 20px;
     margin-top: -60%;
-}
-.bannerheading button{
-    border-radius:40px ;
-    padding: 20px 50px;
 }
 .indicators{
     margin: 16%;
@@ -93,6 +101,7 @@ top: 30%;
 .barnumber{
     background: #333335;
     color: white;
+    height: 20px;
     margin-left: -30px;
 }
 .barnumber span{
@@ -142,6 +151,9 @@ top: 30%;
 .bgimage label{
     color: #0674fd;
     font-family: 'Playfair Display',serif;   
+    background-image: -webkit-gradient(linear, left top, right top, from(#0674fd), to(#00d0f9));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 .lgtclr{
     display: inline-block;
@@ -173,7 +185,7 @@ top: 30%;
 .processing{
     background-color: aliceblue;
     text-align: center;
-    margin-top: -10px;
+    margin-top: -18px;
 }
 .processing h1{
     font-size: 120px;
@@ -184,16 +196,21 @@ top: 30%;
 }
 .processing h2{
     font-size: 40px;
-    font-weight: 700;
+    font-weight: 600;
     font-family: 'Poppins';
 }
 .processing label{
     color: #0674fd;
+    background-image: -webkit-gradient(linear, left top, right top, from(#0674fd), to(#00d0f9));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
     font-family: 'Playfair Display',serif;
 }
 .processing p{
     letter-spacing: 0.005em;
-    font-size: 20px;
+    font-size: 16px;
+    margin-bottom: 50px;
 }
 .processing h6{
     color: #0674fd;
@@ -252,7 +269,15 @@ top: 30%;
     margin-top: 33px;
 }
 .boxheading{
-    font-size: 20px !important;
+    font-size: 18px !important;
+}
+.processing button{
+    border-radius:40px ;
+    padding: 15px 40px;
+    border: none;
+    background-color: #0674fd;
+    background-image: -webkit-linear-gradient(left, #0674fd, #00d0f9);
+    margin-bottom: 60px;
 }
 .boxcon p{
     font-size: 16px;
@@ -261,7 +286,7 @@ top: 30%;
 }
 .clricon{
     margin-bottom: 100px;
-    margin-left: 50px;
+    margin-left: 70px;
 }
 .box1,.box2,.box3,.box4{
     margin-top: -60px;
@@ -299,6 +324,10 @@ top: 30%;
     color: #0674fd;
     font-family: 'Playfair Display',serif;    
     font-style: italic;
+    background-image: -webkit-gradient(linear, left top, right top, from(#0674fd), to(#00d0f9));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
 }
 .features ul{
     margin-left: 15px;
@@ -306,6 +335,9 @@ top: 30%;
 }
 .features button{
     border-radius: 50px;
+    border: none;
+    background-color: #0674fd;
+    background-image: -webkit-linear-gradient(left, #0674fd, #00d0f9);
     padding: 12px 25px;
 }
 .f-ul li{
@@ -368,6 +400,10 @@ top: 30%;
 }
 .experience label{
     color: #0674fd;
+    background-image: -webkit-gradient(linear, left top, right top, from(#0674fd), to(#00d0f9));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
     font-family: 'Playfair Display',serif;   
   
 }
@@ -434,6 +470,10 @@ top: 30%;
     font-weight: 600;
 }
 .contactus label{
+    background-image: -webkit-gradient(linear, left top, right top, from(#0674fd), to(#00d0f9));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
     color: #0674fd;
     font-family: 'Playfair Display',serif;  
 }
@@ -446,8 +486,143 @@ top: 30%;
 }
 .contactus button{
     border-radius: 50px;
+    border: none;
+    background-color: #0674fd;
+    background-image: -webkit-linear-gradient(left, #0674fd, #00d0f9);
     margin-top: 10px;
     padding: 12px 222px;
+}
+.footer{
+    width: 100%;
+    height: 600px;
+    margin-top:-60px;
+    padding: 60px 10px;
+    background-color:black;
+}
+.bluidimg{
+    height:260px;
+}
+.mapimage{
+    background-image: url('../images/map.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+.row-con{
+    margin: 50px 10px;
+}
+.fotfircol img{
+    margin-bottom: 30px;
+}
+.fotfircol p{
+    margin: 20px 0px;
+    color: white;
+    line-height: 1.7;
+    font-size: 12px;
+}
+.fotfircol i{
+    color: #0674fd;
+}
+.fotfircol span{
+    font-size: 17px;
+    color: white;
+    margin-left: 10px;
+
+}
+.fotseccol{
+    margin-top: -20px;
+    margin-left: 80px;
+}
+.fotseccol h3{
+    font-size: 21px;
+    color: white;
+}
+.fotseccol ul{
+    list-style: none;
+}
+.fotseccol-ul li{
+    margin-bottom: 10px;
+}
+.fotseccol-ul li a:hover{
+    color: #0674fd;
+    margin-left: 8px;
+}
+.fotseccol-ul li a{
+    color:white;
+    font-size: 13px;
+}
+.fotsethi{
+    margin-top: -20px;
+    margin-left: 80px;
+}
+.fotsethi h3{
+    font-size: 21px;
+    color: white;
+}
+.fotsethi ul{
+    list-style: none;
+}
+.fotsethi-ul li{
+    margin-bottom: 25px;
+}
+.fotsethi-ul li a{
+    color:white;
+    font-size: 13px;
+}
+
+.fotsefor{
+    margin-top: -20px;
+    margin-left: 17px;
+}
+.fotsefor h3{
+    font-size: 21px;
+    color: white;
+}
+.fotsefor ul{
+    list-style: none;
+}
+.fotsefor ul li a{
+    text-decoration: none;
+}
+.fotsethi-ul img{
+    background-color: white;
+    border-radius: 50%;
+    width: 40px;
+    margin-right: 16px;
+    margin-bottom: 40px;
+    float: left;
+}
+.fotsethi-ul h4{
+    color: #0674fd;
+    margin-bottom: 0px;
+}
+.fotsefor p{
+    font-size: 11px;
+}
+.insta-img img{
+    border-radius: 0%;
+    width: 60px;
+    height: 50px;
+    margin-bottom: 7px;
+}
+.insta-img button{
+    margin: 6px 0px;
+}
+.copyright{
+    background-color: #0a0a0a;
+    width: 102%;
+    margin-left: -10px;
+    padding: 20px 0px;
+    color: white;
+}
+.copyright p{
+    font-size: 13px;
+}
+.rightcon{
+    text-align: right;
+}
+.rightcon i{
+    margin-left: 6px;
 }
 /*Media Query for resposive*/
 @media screen and (max-width: 1200px) {
